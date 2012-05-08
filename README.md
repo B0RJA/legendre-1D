@@ -57,9 +57,9 @@ Run the script:
 
     perl series.pl
 
-and the corresponding files will be created in the folder `initial/`.
+to create the corresponding initial files that will be automatically saved in the folder `initial/`.
 
-The integrals are computed using [maxima](http://maxima.sourceforge.net/), a GNU computer algebra system, that must be installed on your system. Windows users have to edit the script `series.pl` and change the variable `$program` to `maxima.exe`.
+The integrals are computed using [maxima](http://maxima.sourceforge.net/), a GNU computer algebra system, that must be installed on your system. Windows users have to edit the script `series.pl` and change the value of the variable `$program` to `maxima.exe`.
 
 Any problems?
 -------------
