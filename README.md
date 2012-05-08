@@ -67,7 +67,7 @@ Feel free to [write an issue](https://github.com/B0RJA/legendre-1D/issues) if yo
 
 Acknowledgements
 ----------------
-The parsing of the config file is made using Dave Gamble's [cJSON](http://cjson.sourceforge.net/) implementation.
+The parsing of the config file is made thanks to the [cJSON](http://cjson.sourceforge.net/) implementation by Dave Gamble.
 
 Copyright and license
 ---------------------
