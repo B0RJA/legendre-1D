@@ -8,7 +8,11 @@ Download [the latest release](https://github.com/B0RJA/legendre-1D/zipball/maste
 
 Windows users can install [strawberry perl](http://strawberryperl.com/), wich includes gcc, and type in a console window:
 
-    gcc main.c -lm -o legendre.exe
+    cd src
+    gcc -c main.c -o main.o
+    gcc -c cJSON.c -o cJSON.o
+    gcc -o ../legendre.exe main.o -lm -L. cJSON.o
+    cd..
     ./legendre.exe
 
 The file `results.txt` will be created containing the computed scalar distribution:
