@@ -28,11 +28,11 @@ Configuration
 Edit the file `config.js` to change the simulation parameters:
 
     {
-      "domain-size": 1.0,
-      "cell-count": 200,
-      "simulation-time": 1.0,
-      "cfl": 0.9,
-      "results-file": "results.txt"
+      "domain-size"     : 1.0,
+      "cell-count"      : 100,
+      "simulation-time" : 100.0,
+      "cfl"             : 0.5,
+      "results-file"    : "results.txt"
     }
 
 Initial Legendre series for the scalar and velocity distributions are pre-computed and stored in the folder `initial/`.
