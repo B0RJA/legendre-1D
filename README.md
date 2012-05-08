@@ -11,7 +11,7 @@ Windows users can install [strawberry perl](http://strawberryperl.com/), wich in
     gcc main.c -lm -o legendre.exe
     ./legendre.exe
 
-The file `results.txt` will be created with the computed scalar distribution:
+The file `results.txt` will be created containing the computed scalar distribution:
 
     #x  m
     0.000000000e+00  -1.968156519e-06
