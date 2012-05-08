@@ -20,7 +20,7 @@ The file `results.txt` will be created with the computed scalar distribution:
     2.000000000e-02  -2.423903046e-06
     ...
 
-As the scalar field is represented using piecewise-linear functions, two pair of points are given for each cell.
+As the scalar field m(x) is represented using piecewise-linear functions, two pair of points are given for each cell.
 
 Configuration
 -------------
