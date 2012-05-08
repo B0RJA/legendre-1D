@@ -1,4 +1,4 @@
-Legendre second order method for linear advection
+Legendre second-order method for linear advection
 =================================================
 
 Installation and usage
@@ -48,8 +48,8 @@ using 10, 100, 1000 and 10000 cells are included in the release.
 
 Edit the perl script `series.pl` to compute the initial Legendre series for different cell number or in order to change the expressions of the scalar or velocity distributions:
 
-    $cell_count  = 100;
     $domain_size = 1.0;
+    $cell_count  = 100;
     $scalar      = 'e( - 50 * ( x - 0.5 ) ^ 2 )';
     $velocity    = '1 / ( 1 + 0.2 * cos( 2.0 * 3.141592653589793 * x ) )';
 
