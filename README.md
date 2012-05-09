@@ -29,7 +29,7 @@ As the scalar field m(x) is represented using piecewise-linear functions, two pa
 Configuration
 -------------
 
-Edit the file `config.js` to change the simulation parameters:
+Edit the [JSON](http://www.json.org/) file `config.js` to change the simulation parameters:
 
     {
       "domain-size"     : 1.0,
