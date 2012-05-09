@@ -43,8 +43,10 @@ Initial Legendre series for the scalar and velocity distributions are pre-comput
 
 Files corresponding to:
 
+    Domain:
+      x = [ 0 , 1 ]
     Scalar distribution:
-      m(x) = exp( - 50 * ( x - 0.5 ) ^ 2 )
+      m(x) = exp( - 50 * ( x - 1 / 2 ) ^ 2 )
     Velocity distribution:
       v(x) = 1 / ( 1 + cos( 2 * pi * x ) / 5  )
 
