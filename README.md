@@ -24,7 +24,7 @@ The file `results.txt` will be created containing the computed scalar distributi
     2.000000000e-02  -2.423903046e-06
     ...
 
-As the scalar field m(x) is represented using piecewise-linear functions, two pair of points are given for each cell.
+As the scalar field m(x) is represented using piecewise-linear functions, two points are given for each cell.
 
 Configuration
 -------------
