@@ -54,10 +54,10 @@ using 10, 100, 1000 and 10000 cells are included in the release.
 
 Edit the perl script `series.pl` to compute the initial Legendre series for different cell number or in order to change the expressions of the scalar or velocity distributions:
 
-    $domain_size = 1.0;
     $cell_count  = 100;
-    $scalar      = 'e( - 50 * ( x - 0.5 ) ^ 2 )';
-    $velocity    = '1 / ( 1 + 0.2 * cos( 2.0 * 3.141592653589793 * x ) )';
+    $domain_size = 1.0;
+    $scalar      = 'exp( - 50 * ( x - 1 / 2 ) ^ 2 )';
+    $velocity    = '1 / ( 1 + cos( 2 * 3.141592653589793 * x ) / 5 )';
 
 Run the script:
 
