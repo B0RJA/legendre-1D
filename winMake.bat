@@ -1,0 +1,3 @@
+gmake
+pause
+
