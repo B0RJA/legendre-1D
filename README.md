@@ -8,11 +8,7 @@ Installation and usage
 * Compile with `make`.
 * Run `legendre`.
 
-Windows users can install [strawberry perl](http://strawberryperl.com/), wich includes gcc and gmake, and type in a console window:
-
-    cd legendre_2nd
-    gmake
-    legendre.exe
+Windows users can install [strawberry perl](http://strawberryperl.com/), wich includes gcc and gmake, and double-click in `winMake.bat` and then in `legendre.exe`.
 
 The file `results.txt` will be created containing the computed scalar distribution:
 
