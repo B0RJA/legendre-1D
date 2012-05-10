@@ -4,16 +4,15 @@ Legendre second-order method for linear advection
 Installation and usage
 ----------------------
 
-Download [the latest release](https://github.com/B0RJA/legendre-1D/zipball/master), compile with `make` and run `legendre`.
+* Download [the latest release](https://github.com/B0RJA/legendre-1D/zipball/master).
+* Compile with `make`.
+* Run `legendre`.
 
-Windows users can install [strawberry perl](http://strawberryperl.com/), wich includes gcc, and type in a console window:
+Windows users can install [strawberry perl](http://strawberryperl.com/), wich includes gcc and gmake, and type in a console window:
 
-    cd src
-    gcc -c main.c -o main.o
-    gcc -c cJSON.c -o cJSON.o
-    gcc -o ../legendre.exe main.o -lm -L. cJSON.o
-    cd..
-    ./legendre.exe
+    cd legendre_2nd
+    gmake
+    legendre.exe
 
 The file `results.txt` will be created containing the computed scalar distribution:
 
