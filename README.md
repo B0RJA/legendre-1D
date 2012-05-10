@@ -38,7 +38,7 @@ Edit the [JSON](http://www.json.org/) file `config.js` to change the simulation 
       "results-file"    : "results.txt"
     }
 
-Config file and source code are saved using Unix/Linux line endings. Windows users must use an appropriate text editor, i.e. [Notepad++](http://notepad-plus-plus.org/download/v6.1.2.html).
+Config file and source code are saved using Unix/Linux line endings. Windows users must use an appropriate text editor, i.e. [Notepad++](http://notepad-plus-plus.org/download/).
 
 Initial Legendre series for the scalar and velocity distributions are pre-computed and stored in the folder `initial/`.
 
