@@ -1,6 +1,10 @@
 Legendre second-order method for linear advection
 =================================================
 
+Latorre, B., Garcia‐Navarro, P., Murillo, J., & Burguete, J. (2011). Accurate and efficient simulation of transport in multidimensional flow. International Journal for Numerical Methods in Fluids, 65(4), 405-431.
+
+Abstract: A new numerical method to obtain high-order approximations of the solution of the linear advection equation in multidimensional problems is presented. The proposed conservative formulation is explicit and based on a single updating step. Piecewise polynomial spatial discretization using Legendre polynomials provides the required spatial accuracy. The updating scheme is built from the functional approximation of the exact solution of the advection equation and a direct evaluation of the resulting integrals. The numerical details for the schemes in one and two spatial dimensions are provided and validated using a set of numerical experiments. Test cases have been oriented to the convergence and the computational efficiency analysis of the schemes.
+
 Installation and usage
 ----------------------
 
